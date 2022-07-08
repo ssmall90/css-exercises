@@ -8,16 +8,29 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
-  width: 300px;
+  display: flex;
+  min-width: 300px;
+  min-height: 100vh;
+  padding: 16px;
   background: royalblue;
 }
 
@@ -25,4 +38,47 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 32px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+a{text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+.link-one{
+  padding-bottom: 16px;
+}
+.link-two{
+  padding-bottom: 16px;
+}
+.link-three{
+  padding-bottom: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  max-width: 200px;
+ height: auto;
+  margin: 20px;
 }

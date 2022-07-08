@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  font-weight: bold;
 }
 
 input {
@@ -25,3 +26,79 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul{
+  list-style: none;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {color: blue;}
+a:active {text-decoration: none;}
+a {color: black;}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+}
+
+.about {
+  margin-right: 16px;
+}
+
+.right-links {
+  display: flex;
+  margin-right: 16px;
+}
+
+.settings {
+  margin-left: 16px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 137.5px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.dtf {
+  margin-right: 8px;
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-between;
+  background-color: #ddd;
+}
+
+.advertising {
+  margin-right: 16px;
+}
+
+.privacy {
+  margin-right: 16px;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
